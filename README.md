@@ -1,17 +1,19 @@
-# Ex.No: 01 PLOT A TIME SERIES DATA
-###  Date: 21-02-2024
+# Ex.No: - 01 PLOT A TIME SERIES DATA ->
+###  Date: 25-02-2024
 
-# AIM:
+# AIM :
 To Develop a python program to Plot a time series data (population/ market price of a commodity
-/temperature.
-# ALGORITHM:
-1. Import the required packages like pandas and matplot
+/temperature).
+
+# ALGORITHM :
+1. Import the required packages like pandas and matplot.
 2. Read the dataset using the pandas
 3. Calculate the mean for the respective column.
 4. Plot the data according to need and can be altered monthly, or yearly.
 5. Display the graph.
-# PROGRAM:
-### Population:
+
+# PROGRAM :
+## Population :
 ~~~
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -24,7 +26,7 @@ plt.xlabel("Year")
 plt.ylabel("Population(in Thousands)")
 plt.show()
 ~~~
-### Market Price:
+## Market Price :
 ~~~
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -40,7 +42,7 @@ plt.xlabel("Year")
 plt.ylabel("Price")
 plt.show()
 ~~~
-### Temperature:
+## Temperature :
 ~~~
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -52,16 +54,13 @@ plt.ylabel("Temperature")
 plt.show()
 ~~~
 # OUTPUT:
-### Population:
+## Population :
 ![](https://github.com/RanjithD18/TSA_EXP1/blob/main/1.png)
-### Market Price:
+## Market Price :
 ![](https://github.com/RanjithD18/TSA_EXP1/blob/main/2.png)
 ![](https://github.com/RanjithD18/TSA_EXP1/blob/main/3.png)
-### Temperature:
+## Temperature :
 ![](https://github.com/RanjithD18/TSA_EXP1/blob/main/4.png)
-
-
-
 
 
 # RESULT:
