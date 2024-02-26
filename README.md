@@ -1,4 +1,4 @@
-# Ex.No: - 01 PLOT A TIME SERIES DATA ->
+# Ex.No: 01 - PLOT A TIME SERIES DATA ->
 ###  Date: 25-02-2024
 
 # AIM :
